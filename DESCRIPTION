@@ -1,0 +1,30 @@
+Package: norclip
+Type: Package
+Title: Normalization for CLIP-seq data
+Version: 0.1.0
+Date: 2016-06-08
+Authors@R: person("Lars", "Barquist", email = "lars.barquist@uni-wuerzburg.de", role = c("aut", "cre"))
+Author: Lars Barquist [aut, cre]
+Maintainer: Lars Barquist <lars.barquist@uni-wuerzburg.de>
+Description: What the package does (one paragraph).
+Depends:
+    R (>= 3.2.3),
+    rtracklayer,
+    IRanges,
+    data.table,
+    disk.frame
+Imports:
+    plyr,    
+    ggplot2,
+    reshape2,
+    hexbin,
+    Ckmeans.1d.dp
+Suggests:
+    BiocStyle,
+    knitr,
+    mclust
+License: LGPL-3.0
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+RoxygenNote: 7.1.2
